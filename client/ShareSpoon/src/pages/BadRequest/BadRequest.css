@@ -1,0 +1,38 @@
+.notFoundContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f8f8;
+}
+
+.notFoundContent {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.notFoundContent h1 {
+    font-size: 96px;
+    margin: 0;
+}
+
+.notFoundContent p {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.notFoundContent span {
+    display: block;
+    margin: 20px 0;
+    font-size: 16px;
+    color: #666;
+}
+
+.notFoundContainer .returnLink {
+    display: block;
+    margin: 20px 0;
+    font-size: 16px;
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}

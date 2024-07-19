@@ -1,0 +1,30 @@
+.container-create-recipe {
+    justify-content: center;
+    align-items: center;
+}
+
+.container-create-recipe .paper {
+    padding: 0px 20px 20px 20px;
+}
+
+.container-create-recipe .grid-image {
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.gradient-slider .MuiSlider-rail {
+    background: linear-gradient(to right, green, yellow 50%, red);
+}
+
+@media only screen and (max-width: 600px) {
+    .container-create-recipe .paper {
+        width: 450px;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .container-create-recipe .paper {
+        width: 850px;
+    }
+}

@@ -1,0 +1,26 @@
+.container-recipe-page{
+    justify-content: center;
+    align-items: center;
+}
+
+.container-recipe-page .paper{
+    padding: 0px 20px 100px 20px;
+}
+
+.container-recipe-page .grid-image{
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+@media only screen and (max-width: 600px){
+    .container-recipe-page .paper{
+        width: 450px;
+    }
+}
+
+@media only screen and (min-width: 900px){
+    .container-recipe-page .paper{
+        width: 850px;
+    }
+}
